@@ -67,12 +67,18 @@ class Library {
                 if (!book.isBorrowed()) {
                     book.setBorrowed(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
 System.out.println("Book checked out.");                } else {
 =======
 System.out.println("Borrowed successfully.");
                 } else {
 >>>>>>> feature-genre-report
                     System.out.println("Book is already borrowed.");
+=======
+              System.out.println("Borrowed successfully.");
+                } else {
+                  System.out.println("Book is already borrowed.");
+>>>>>>> 50afa079c3321df7f1facbbc8f0615828b00a90a
                 }
                 return;
             }
